@@ -36,7 +36,7 @@ targets = input("[*] Enter Targets to Scan (Split them by - ): ")
 ports = int(input("[*] Enter How Many Ports You Want to Scan: "))
 
 if '-' in targets:
-	print(termcolor.colored(("[*]Scanning Multiple Targets"), 'green'))
+	print(termcolor.colored(("[*]Scanning Multiple Targets"), 'yellow'))
 	for ip_addr in targets.split('-'):
 		scan(ip_addr.strip(' '), ports)
 else:
