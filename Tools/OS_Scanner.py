@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import platform
 import socket
@@ -9,7 +10,17 @@ def get_os_info():
 
 def get_net_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
+    print(r"""
+    ██████╗░  ░█████╗░  ███████╗  ██╗  ████████╗
+    ██╔══██╗  ██╔══██╗  ██╔════╝  ╚█║  ╚══██╔══╝
+    ██████╔╝  ███████║  █████╗░░  ░╚╝  ░░░██║░░░
+    ██╔══██╗  ██╔══██║  ██╔══╝░░  ░░░  ░░░██║░░░
+    ██║░░██║  ██║░░██║  ██║░░░░░  ░░░  ░░░██║░░░
+    ╚═╝░░╚═╝  ╚═╝░░╚═╝  ╚═╝░░░░░  ░░░  ░░░╚═╝░░░""")
+    print("\n****************************************************************")
+    print("\n* Muhammad Rafi Ediananta                                      *")
+    print("\n* OS Scanner Tools                                             *")
+    print("\n****************************************************************\n")
     net_ip = input("Input The IP : ")
     s.connect((net_ip, 80))
     ip_address = s.getsockname()[0]

@@ -1,18 +1,27 @@
-
+# !/usr/bin/env python
 # Import Library
 import socket    # Digunakan untuk berkomunikasi dengan mesin lain menggunakan protokol TCP dan UDP 
 import termcolor # Mencetak beberapa pernyataan dalam warna yang berbeda 
 from pyfiglet import figlet_format
 
-#AsCII Art
-print("\n")
-print(figlet_format("R A F ' T", font="colossal"))
+#Basic Interface
+print(r"""
+	██████╗░  ░█████╗░  ███████╗  ██╗  ████████╗
+	██╔══██╗  ██╔══██╗  ██╔════╝  ╚█║  ╚══██╔══╝
+	██████╔╝  ███████║  █████╗░░  ░╚╝  ░░░██║░░░
+	██╔══██╗  ██╔══██║  ██╔══╝░░  ░░░  ░░░██║░░░
+	██║░░██║  ██║░░██║  ██║░░░░░  ░░░  ░░░██║░░░
+	╚═╝░░╚═╝  ╚═╝░░╚═╝  ╚═╝░░░░░  ░░░  ░░░╚═╝░░░""")
+print("\n****************************************************************")
+print("\n* Muhammad Rafi Ediananta                                      *")
+print("\n* Port Scanner Tool                                            *")
+print("\n****************************************************************")
 
 # Process
-def scan(target, ports):
-	print('\n' + ' Starting Scan For ' + str(target))
+def scan(targets, ports):
+	print('\n' + ' Starting Scan For ' + str(targets))
 	for port in range(1,ports): # Akan melakukan pengulangan dari jumlah inputan yang di isi 
-		scan_port(target, port)
+		scan_port(targets, port)
 
 def scan_port(ipaddress, port):
 	try : 
