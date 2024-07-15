@@ -10,7 +10,7 @@ These tools were made using the Python programming language. These tools can be 
 
 
 <h1 align="center">Hi 👋, I'm Muhammad Rafi Ediananta</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate Cybersecurity and Network Engineer from Indonesia</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lazycats07&label=Profile%20views&color=0e75b6&style=flat" alt="lazycats07" /> </p>
 
