@@ -4,7 +4,7 @@
 Raf't is a powerful tool designed to help you discover hidden Tech assets and vulnerabilities in your environment. With a range of features focused on OS scanning, port scanning, and network scanning, Raf't enables users to get a comprehensive view of their infrastructure's security posture.
 
 
-![Logo](Raf-T/img/Yt.png)
+![Logo](img/Title.png)
 
 
 
@@ -44,7 +44,7 @@ Jalankan Tools menggunakan command `python3`
 ```  
 ## Usage
 
-[![]("Raf-T/img/Title.png")](https://youtu.be/EPOFYOy4xAw)
+[![]("img/Youtube.png")](https://youtu.be/EPOFYOy4xAw)
 
 
 ```bash
