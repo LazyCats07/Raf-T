@@ -8,7 +8,7 @@ Raf't is a powerful tool designed to help you discover hidden Tech assets and vu
 
 
 
-[![GitHub release](https://img.shields.io/github/release/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/releases/tag/v1.0)
+[![GitHub release](https://img.shields.io/github/release/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/releases/)
 [![GitHub issues](https://img.shields.io/github/issues/LazyCats07/Raf-T.svg)](https://github.com/LazyCats07/Raf-T/issues)
 [![Github Stars](https://img.shields.io/github/stars/LazyCats07/Raf-T.svg?style=social&label=Stars)](https://github.com/LazyCats07/Raf-T)
 [![GitHub Followers](https://img.shields.io/github/followers/LazyCats07.svg?style=social&label=Follow)](https://github.com/LazyCats07)
