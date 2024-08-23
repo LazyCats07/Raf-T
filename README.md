@@ -44,7 +44,7 @@ Jalankan Tools menggunakan command `python3`
 ```  
 ## Usage
 
-![Logo]("img/Youtube.png")](https://youtu.be/EPOFYOy4xAw)
+![Logo](img/Youtube.png)](https://youtu.be/EPOFYOy4xAw)
 
 
 ```bash
