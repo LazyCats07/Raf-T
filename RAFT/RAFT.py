@@ -27,7 +27,7 @@ respon = input("""\n Please enter the type of scan you want to run
                 1. Port Scanner
                 2. OS Scanner
                 3. Network Scanner 
-Input: """)
+Input the Number: """)
 print("You have selected option: ", respon)
 
 # ----------------------------------------------------------------------------------------------------------
